@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    width: 50vw;
+    background: lightblue;
+    padding: 3rem;
+    height: 100vh;
+}
+
+.contain{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    height: 1.6rem;
+}
+
+.error{
+    color: red;
+    font-size: 0.8rem;
+}
+
+#progresse-Bar{
+    height: 3px;
+    transition: 2s;
+    margin: 0;
+}
+
+.progressRed {
+    width: 10%;
+    background: rgb(208, 16, 16);
+}
+
+.progressBlue {
+    width: 60%;
+    background-color: rgb(38, 94, 159);
+}
+
+.progressGreen{
+    width: 100%;
+    background-color: rgb(93, 171, 93);
+}
+
+.btn {
+    text-align: center;
+}
